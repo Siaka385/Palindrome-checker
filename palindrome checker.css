@@ -1,0 +1,64 @@
+.container {
+    width: 600px;
+    height: 100vhs;
+    border: 1px solid red;
+    text-align: center;
+    margin: 150px auto; /* Center the container */
+    font-size: 40px;
+    background: linear-gradient(blue, red, yellow);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#head {
+    color: aqua;
+    transition: color 3s linear;
+}
+
+#head:hover {
+    color: goldenrod;
+}
+
+#ans {
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    margin-bottom: 20px; /* Add some space below the input */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#btn {
+    width: 150px; /* Adjust the button width */
+    height: 50px; /* Adjust the button height */
+    background-color: royalblue;
+    color: white; /* Change text color to white for better contrast */
+    font-weight: 600;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#btn:hover {
+    background-color: darkblue; /* Add a hover effect for better interactivity */
+}
+
+#checker {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.checker {
+    color: green;
+}
+
+.check {
+    color: crimson;
+}
